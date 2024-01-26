@@ -43,16 +43,18 @@ for i in range (5,10,2): # for contador in range (desde, hasta. pasos):
 
 
 #ciclo while
-booleanito= true 
-while booleanito== true:#while condicion_a_cumplir :
-print ("Sigo vivo")
+booleanito= True 
+while booleanito== True:#while condicion_a_cumplir :
+    print ("Sigo vivo")
+booleanito == False
 
 # ---- condicionales ----
 texto1 = "campus"
 if texto1== "campus" :
     print ("soy campus")
- else 
+else:
     print ("No soy campus")
+    
 
 # ---- funciones ----
 
@@ -60,21 +62,30 @@ if texto1== "campus" :
 def di_hola():
     print ("Hola")
 
-# funcion con parametros y con retono
-def mi_funcion (num1,num2)
-print num1+num2
+# funcion con parametros y sin retorno
+def mi_funcion (num1,num2):
+    print (num1+num2)
+
 mi_funcion(3,4)
 
-# Funcion con parametros pero sin retorno
-def mi_funcion2 ()
+# Funcion con parametros y con retorno
+def mi_funcion2 (a,b):
+    resultado=a+b
+    return mi_funcion2 
+print (mi_funcion2(4,7))
 
 
 
 # funcion sin parametros y con retorno 
 
+def mi_funcion3 ():
+    print ("Hola")
+    return mi_funcion3
+print (mi_funcion3())
+
 # ---- arreglos----
-list [2,3,4,5]}
-print ("list")
+list [2,3,4,5]
+print (list)
 
 
  ## Desarrollado por : Maria Jose Bastilla Osorio - 1098668885
