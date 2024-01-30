@@ -1,0 +1,12 @@
+from itertools import combinations
+
+n2 = input("Ingrese una cadena de números: ")
+lista = [int(digito) for digito in n2]  # Convertir la cadena en una lista de enteros
+
+def generar_parejas(lista_numeros):
+    parejas = list(combinations(lista_numeros, 2))
+    return parejas 
+
+resultado = generar_parejas(lista)
+print("Lista de parejas generadas:")
+print(resultado)
