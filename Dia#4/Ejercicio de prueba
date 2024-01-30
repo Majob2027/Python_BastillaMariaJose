@@ -1,12 +1,12 @@
-from itertools import combinations
+def division_es_entera(numero1, numero2):
+    resultado = numero1 / numero2
 
-n2 = input("Ingrese una cadena de números: ")
-lista = [int(digito) for digito in n2]  # Convertir la cadena en una lista de enteros
+    if resultado.is_integer():
+        print("Sí")
+    else:
+        print("No")
 
-def generar_parejas(lista_numeros):
-    parejas = list(combinations(lista_numeros, 2))
-    return parejas 
-
-resultado = generar_parejas(lista)
-print("Lista de parejas generadas:")
-print(resultado)
+# Ejemplo de uso
+num1 = (int(input("escriba numero")))
+num2 = (int(input("escriba numero")))
+division_es_entera(num1, num2)
