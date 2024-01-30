@@ -31,5 +31,7 @@ print("Number of 10 coins:", count_10*" 10 +")
 print("Number of 5 coins:", count_5*" 5 + ")
 print("Number of 1 coins:", count_1*" 1 + ")
 
+#Desarrollado por Maria Jose Bastilla Osorio - 1098668885
+
 
  
