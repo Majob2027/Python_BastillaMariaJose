@@ -24,12 +24,12 @@ count_1 = money
 min_coins = count_10 + count_5 + count_1
 
 # Print the result
+
+
 print("Minimum number of coins:", min_coins)
-print("Number of 10 coins:", count_10)
-print("Number of 5 coins:", count_5)
-print("Number of 1 coins:", count_1)
-
-
+print("Number of 10 coins:", count_10*" 10 +")
+print("Number of 5 coins:", count_5*" 5 + ")
+print("Number of 1 coins:", count_1*" 1 + ")
 
 
  
