@@ -1,1 +1,11 @@
-from 
+import Ejercicio1dia1_BastillaMaria
+import EjercicioParejasdenumeros_HelenyMajo
+import Ejercicio1fibonacci_BastillaMariaJose
+import EjercicioParejasdenumeros_HelenyMajo
+import Ejercicio4_BastillaMaria
+import Ejercicio1dia5_BastillaMaria
+import Ejercicio2dia2_BastillaMariaJose
+
+
+
+
