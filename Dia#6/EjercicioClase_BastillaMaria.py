@@ -18,5 +18,7 @@ if producto=="crema":
  print("el precio total de su compra es" , (diccionario["crema"])*c)
 if producto=="shampoo":
  print("el precio total de su compra es" , (diccionario["shampoo"])*c)
+else :
+ print("El producto digitado no se encuentra disponible")
   
 
