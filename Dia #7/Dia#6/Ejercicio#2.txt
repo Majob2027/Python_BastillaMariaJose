@@ -1,4 +1,0 @@
-Cadenas(inmutables):tipo de datos compuesto por caracteres
-listas(mutable):crear colecciones de datos 
-Tuplas(inmutable):coleccion de datos que no se puede modificar
-diccionarios(mutables):almacena cualquier tipo de informacion

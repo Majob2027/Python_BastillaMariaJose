@@ -1,3 +1,6 @@
+
+
+
 n = int(input("Ingrese el número de tipos de monedas disponibles: "))
 t = int(input("Ingrese la cantidad de mesas a diseñar: "))
 
