@@ -24,7 +24,6 @@ def large_num(num):
 
 #Corregir el nombre de la variable de entrada de la función negate
 b=(input("Digite el valor que quiere cambiar"))
-b = 5000
 neg_b = negate(b)
 print('b:', b, 'neg_b:', neg_b)
 
