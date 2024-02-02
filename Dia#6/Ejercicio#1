@@ -17,18 +17,25 @@ print 'b if big:' , big
 #correcion
 
 def negate(num):
-    return -num
+    reesultado=num*-1
+    return reesultado
 
-def large_num(num):
+def com(num):
     return num > 10000
 
 #Corregir el nombre de la variable de entrada de la función negate
-b=(input("Digite el valor que quiere cambiar"))
+
+
+b=int(input("Digite el valor que quiere cambiar"))
 neg_b = negate(b)
 print('b:', b, 'neg_b:', neg_b)
 
-big = large_num(b)
-print('b if big:', big)
+big = com(b)
+booleano=True if (b)>10000 else False
+if booleano:
+    print("true")
+else :
+ print("False")
 
 
 #Elaborado por Maria Jose Bastilla-1098668885
