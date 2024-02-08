@@ -17,6 +17,9 @@
         {"id": 6, "nombre": "Manuel", "apellido1": "Domínguez", "apellido2": "Hernández", "comision": 0.13},
         {"id": 7, "nombre": "Antonio", "apellido1": "Vega", "apellido2": "Hernández", "comision": 0.11},
         {"id": 8, "nombre": "Alfredo", "apellido1": "Ruiz", "apellido2": "Flores", "comision": 0.05}
+        {"id": 8, "nombre": "lucas", "apellido1": "Ruiz", "apellido2": "pp", "comision": 0.08}
+
+          
       ],
       "pedidos": [
         {"id": 3, "total": 65.26, "fecha": "2017-10-05", "id_cliente": 2, "id_comercial": 1},
